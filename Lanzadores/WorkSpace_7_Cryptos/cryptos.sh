@@ -1,0 +1,1 @@
+flatpak run org.getmonero.Monero & cd ~/Aplications ; ./Electron-Cash.AppImage & ./AtomicDEX.AppImage & cd ~/Documentos/Personal/"Anarquismo y Descentralización"/Tecnologías/Criptos/Wallets/Pirate && pirate-qt
