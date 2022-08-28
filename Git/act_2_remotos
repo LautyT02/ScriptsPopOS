@@ -1,0 +1,15 @@
+#Este Script debería funcionar en caso de tener como upstream el repo en github y un remoto secundario llamado gl
+#Traer cambios del remoto principal
+git pull
+#Añadir y commitear posibles cambios después de hacer pull
+git add . 
+git commit -m "Hice pull de GitHub" -m "Merge resultante de hacer pull del remoto de GitHub y lo que había en el local"
+#Traer cambios del remoto Secundario branch master
+git pull gl master
+#Añadir y commitear posibles cambios después de hacer pull
+git add .
+git commit -m "Hice pull de GitLab" -m "Merge resultante de hacer pull del remoto de GitLab y lo que había en el local después del pull a GitHub"
+#Subir cambios a Remoto GitHub
+git push
+#Subir cambios a remoto secundario GitLab
+git push gl master
